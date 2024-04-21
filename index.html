@@ -34,30 +34,6 @@
             </div>
         </nav>
     </header>
-    <style>
-        .content-container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .image-container {
-            flex: 1;
-        }
-        .text-container {
-            flex: 1;
-            padding: 0 20px;
-        }
-        @media (max-width: 600px) {
-            .content-container {
-                flex-direction: column;
-            }
-        }
-    </style>
-    <div class="content-container">
-        <div class="image-container">
-            <img src="images/tea.jpg" alt="Tea Setup">
-        </div>
-    </div>
     <main class="container">
         <section id="home">
             <h1 style="text-align: center;">Welcome to The Mindful and the Minimalist</h1>
@@ -65,9 +41,30 @@
             <p>Discover the essence of simplicity in every dish. Journey into a world where each flavor is an homage to the art of less is more. Delve into recipes that celebrate the harmony of minimal ingredients for maximum taste.</p>         
             <p></p> 
         </section>
-        <div style="text-align: left;"> 
-            <img src="images/tea.jpg" alt="Mindful Eating" width="450" height="450">
-            <div>
+        <style>
+            .content-container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .image-container {
+                flex: 1;
+            }
+            .text-container {
+                flex: 1;
+                padding: 0 20px;
+            }
+            @media (max-width: 400px) {
+                .content-container {
+                    flex-direction: column;
+                }
+            }
+        </style>
+        <div class="content-container">
+            <div class="image-container">
+                <img src="images/tea.jpg" alt="Tea Setup">
+            </div>
+        </div>
         <section id="about">
             <h2 style="text-align: center;">Why Minimalist Cooking?</h2>
             <p>An average human being makes about 35,000 choices in a single day. Decision Fatigue is a very real thing. That is where minimalism steps in to save us all. A minimalist approach to cooking means- keeping it simple. Not only does a minimalist diet get sweeter for the wallets but it also helps develop a more organized and healthier mindset.</p>

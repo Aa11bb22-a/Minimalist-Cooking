@@ -34,6 +34,30 @@
             </div>
         </nav>
     </header>
+    <style>
+        .content-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .image-container {
+            flex: 1;
+        }
+        .text-container {
+            flex: 1;
+            padding: 0 20px;
+        }
+        @media (max-width: 600px) {
+            .content-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+    <div class="content-container">
+        <div class="image-container">
+            <img src="images/tea.jpg" alt="Tea Setup">
+        </div>
+    </div>
     <main class="container">
         <section id="home">
             <h1 style="text-align: center;">Welcome to The Mindful and the Minimalist</h1>

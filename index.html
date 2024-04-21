@@ -4,38 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Mindful and the Minimalist</title>
-    <!-- If you're using Bootstrap, include it here -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .centered-nav .navbar-brand {
+            display: block;
+            text-align: center;
+            margin: auto;
+        }
+        .centered-nav .navbar-nav {
+            justify-content: center;
+            width: 100%;
+        }
+        .navbar {
+            padding-bottom: 0;
+        }
+        .navbar-collapse {
+            justify-content: center;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
 </head>
 <body>
-    <header>
+    <header class="centered-nav">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">The Mindful and the Minimalist</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">Why Minimalist?</a></li>
-                        <li class="nav-item"><a class="nav-link" href="recipes.html">Recipes</a></li>
-                    </ul>
-                </div>
+            <a class="navbar-brand" href="index.html">The Mindful and the Minimalist</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#about">Why Minimalist?</a></li>
+                    <li class="nav-item"><a class="nav-link" href="recipes.html">Recipes</a></li>
+                </ul>
             </div>
         </nav>
     </header>
     <main class="container">
         <section id="home">
-            <h1>Welcome to The Mindful and the Minimalist</h1>
-            <p>Cooking can seem like a hassle with anxiety-inducing recipes and a plethora of ingredients and measurements to follow through. Treat this cookbook as a guided cooking and a meditative experience to elevate the cooking experience and to practice anchoring our mind and focussing attention on the senses, tuning them into the sights, sounds, smells, and textures of the culinary art.</p>
+            <h1 class="text-center">Welcome to The Mindful and the Minimalist</h1>
+            <p>Cooking can seem like a hassle with anxiety-inducing recipes and a plethora of ingredients and measurements to follow through...</p>
         </section>
         <section id="about">
             <h2>Why Minimalist Cooking?</h2>
-            <p>An average human being makes about 35,000 choices in a single day. Decision Fatigue is a very real thing. That is where minimalism steps in to save us all. A minimalist approach to cooking means- keeping it simple. Not only does a minimalist diet get sweeter for the wallets but it also helps develop a more organized and healthier mindset.</p>
+            <p>An average human being makes about 35,000 choices in a single day...</p>
         </section>
     </main>
-    <footer class="footer mt-auto py-3 bg-light">
+    <footer class="footer bg-light">
         <div class="container">
             <p>Copyright &copy; Your Year. All rights reserved.</p>
         </div>
@@ -45,4 +65,3 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
-

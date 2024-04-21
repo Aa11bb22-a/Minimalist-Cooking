@@ -23,6 +23,39 @@ body {
     <header class="container">
         <h1 style="text-align: center;">Let's connect!</h1>
         <h2 style="text-align: center;">Say hello, share your thoughts and ideas, anything goes.</h2>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Images Side by Side</title>
+        <style>
+          .image-container {
+            display: flex;
+            justify-content: center; /* Center the images horizontally */
+            align-items: center; /* Center the images vertically */
+          }
+          .image-container img {
+            width: 350px;
+            height: 350px;
+            margin-right: 10px; /* Add space between the images */
+          }
+          /* Remove the margin from the last image */
+          .image-container img:last-child {
+            margin-right: 0;
+          }
+        </style>
+        </head>
+        <body>
+        
+        <div class="image-container">
+          <img src="images/aarzoo.jpg" alt="First Image">
+          <img src="images/aarzoo2.jpeg" alt="Second Image">
+        </div>
+        
+        </body>
+        </html>
+        
     </header>
     <footer class="container">
         <p>&copy; 2024. All rights reserved.</p>
